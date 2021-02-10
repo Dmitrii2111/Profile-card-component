@@ -1,0 +1,87 @@
+body {
+   font-family: Kumbh Sans;
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   font-weight: 700;
+   margin-block-end: 0;
+   margin-block-start: 0;
+   font-size: 18px;
+}
+p, h3>span {
+   font-weight: 400;
+   color: gray;
+   margin-block-end: 0;
+   margin-block-start: 0;
+}
+p{
+   font-size: 12px;
+   padding-top: 5px;
+}
+
+.layout{
+   position: relative;
+   background-color: #248d8d;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+img {
+   position: absolute;
+}
+.bg-pattern-bottom {
+   padding-left: 60%;
+   padding-top: 30%;
+}
+.bg-pattern-top {
+   right: 60%;
+   bottom: 40%;
+}
+
+
+.card {
+   background-color: #fff;
+   background-image: url(./images/bg-pattern-card.svg);
+   background-repeat: no-repeat;
+   width: 24%;
+   border-radius: 10px;
+   position: relative;
+   margin:0 auto;
+   top: 30%;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   justify-items: center;
+   flex-direction: column;
+}
+.photo{
+   margin: 0 auto;
+   margin-top: 30%;
+   border-radius: 6rem;
+   border: 4px solid white;
+   width: 30%;
+   height: 6.5rem;
+   background-image: url(./images/image-victor.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.web-info {
+   margin-top: 20%;
+   padding-top: 10%;
+   display: flex;
+   justify-content: space-around;
+   border-top: 1px solid rgb(196, 192, 192);
+   padding-bottom: 10%;
+}
+.name_age {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.city{
+   font-size: 16px;
+}
