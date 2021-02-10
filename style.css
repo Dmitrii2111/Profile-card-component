@@ -37,6 +37,14 @@ img {
    padding-left: 60%;
    padding-top: 30%;
 }
+
+@media (max-width: 375px) {
+   .bg-pattern-bottom {
+      padding-left: 38%;
+      padding-top: 100%;
+   }
+   
+}
 .bg-pattern-top {
    right: 60%;
    bottom: 40%;
@@ -59,6 +67,13 @@ img {
    justify-items: center;
    flex-direction: column;
 }
+@media (max-width: 375px) {
+   .card {
+      width: 85%;
+      top: 20%
+   }
+}
+
 .photo{
    margin: 0 auto;
    margin-top: 30%;
