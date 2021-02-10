@@ -56,6 +56,7 @@ img {
    background-image: url(./images/bg-pattern-card.svg);
    background-repeat: no-repeat;
    width: 24%;
+   max-width: 350px;
    border-radius: 10px;
    position: relative;
    margin:0 auto;
